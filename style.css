@@ -1,0 +1,159 @@
+/*================Default====================*/
+/* Default css styling */
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.7;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px 50px;
+    background-color:#Eaebed;
+}
+/*==================Wrong====================*/
+/* Styling the error menu */
+#wrong{
+    position: fixed;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    color:crimson;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*===================Main====================*/
+/* Main container containing the game */
+.container{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    width: 906px;
+    height: 604px;
+    border: 2px #2e424d solid;
+}
+
+/*===================Aside======================*/
+/* Aside bar where the words are being displayed */
+aside{
+    width: 202px;
+    height: 600px;
+    border-right: 2px #2e424d solid;
+}
+#aside_head{
+    padding: 5px 20px;    
+    background-color: #5b8291;
+    color: #Eaebed;
+    width: 200px;
+    height: 80px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: 2px #2e424d solid;
+}
+#words_div{
+    background-color: #98dad9;
+    width: 200px;
+    height: 86.5%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.words{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    color: #2e424d;
+}
+.wordsFound{
+    text-decoration:#Eaebed line-through 2px;
+}
+
+/*=======================Section========================*/
+/* Main section of the user interactive division */
+section{
+    width: 700px;
+    height: 600px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*========================Input=========================*/
+/* Styling the input divisions */
+#input_div{
+    width: 700px;
+    height: 80px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5b8291;
+    border-bottom: 2px #2e424d solid;
+}
+#input_div input[type="text"]{
+    border: 1px grey solid;
+    width: 400px;
+    height: 60%;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+#input_div input[type="submit"]{
+    width: 140px;
+    height: 60%;
+    background-color:#Eaebed;
+    color: #2e424d;
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+
+/*=======================Matrix==============================*/
+/* Styling the matrix */
+#matrix{
+    width: 700px;
+    height: 520px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 15px;
+    background-color: #98dad9;
+}
+.cells{
+    width: 38px;
+    height: 21px;
+    background-color: #Eaebed;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    font-size: 12px;
+}
